@@ -1,0 +1,83 @@
+.meeteam {
+	width: 95%;
+}
+.meeteam .examles {
+	align-items: flex-start;
+	width: 520px;
+	margin-bottom: 40px;
+}
+.team .examles .pseudo::after {
+	margin-left: -42px;
+	text-align: left;
+}
+.grider {
+	height: 460px;
+	display: grid;
+	grid-template: 'a b'
+				   'a c';
+	grid-template-columns: 320px 855px;
+	grid-template-rows: 220px 180px;
+}
+
+.grider .person {
+	grid-area: b;
+}
+.grider .img1 {
+	grid-area: a;
+}
+.grider .more-img {
+	grid-area: c;
+	margin-top: 90px;
+
+}
+.grider .more-img a {
+	margin-right: 30px;
+	position: relative;
+}
+.grider .more-img a:hover::before {
+	position: absolute;
+	bottom: 0;
+	content:'';
+	text-align: center;
+	background: #696969;
+	color: #fff;
+	width: 100%;
+	height: 80%;
+}
+.grider .more-img a:nth-child(1):hover::before {
+	content:'James Nilson';
+}
+.grider .more-img a:nth-child(2):hover::before {
+	content:'Sonya Radding';
+}
+.grider .more-img a:nth-child(3):hover::before {
+	content:'Cris Foks';
+}
+.grider .more-img a:nth-child(4):hover::before {
+	content:'David Goffman';
+}
+.examles ul {
+	margin-top: 25px;
+	list-style-type: none;
+	width: 40%;
+	display: grid;
+	grid-template-columns: 120px 120px 120px 120px;
+	
+}
+.examles h1 {
+	text-align: left;
+	margin-bottom: 15px;
+	
+}
+.examles p {
+	text-align: left;
+}
+.examles ul a {
+	font-style: italic;
+	color: black;
+}
+.person h1 {
+	font-size: 30px;
+	font-weight: 600;
+}
+

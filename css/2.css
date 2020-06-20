@@ -1,0 +1,47 @@
+.advantage {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+.article {
+	flex: 1 500px;
+}
+.advantge:nth-of-type(2) {
+	flex: 1.3 500px;
+}
+.provide {
+	margin-right: 40px;
+	padding: 0 10px 10px 10px;
+}
+.provide h2 {
+	font-size: 42px;
+	line-height: 55px;
+	font-weight: 700;
+}
+.provide p {
+	margin: 20px 0;
+}
+.provide .load-more {
+	background-color: #fff;
+	margin-top: 10px;
+	color: #ff3f3f;
+}
+
+.provide button:hover {
+	color: #C0C0C0;
+}
+.icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-right: 30px;
+}
+.card {
+	padding: 5px 5px 30px 30px;
+	flex: 1 170px;
+}
+.logo-title {
+	margin: 20px 0;
+}

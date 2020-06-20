@@ -1,0 +1,64 @@
+.grider1 {
+	display: grid;
+	margin-left: 5%;
+	margin-right: 0;
+	grid-template-columns: 730px;
+	grid-template-rows: 480px;
+	color: black;
+}
+.grider1 button {
+	
+} 
+.send {
+	margin: 50px 100px 0 0;
+	display: grid;
+	grid-template:'a b'
+				  'c c'
+				  'd d';
+	grid-template-columns: 50%;
+	grid-template-rows: 50px 280px 100px;
+}
+.con-inf {
+	background: #000;
+	color: #fff;
+	height: 80%;
+	margin-top: 40px;
+}
+.con-inf h4 {
+	padding: 22% 0 5% 15% ;
+}
+.con-inf p {
+	padding: 0 0 5% 15% ;
+}
+.send textarea {
+	grid-area: c;
+	margin: 40px 0;
+	background: #C0C0C0;
+	border-radius: 3px;
+}
+.send button {
+	grid-area: d;
+	width: 100%;
+}
+.send input {
+	height: 80%;
+	width: 90%;
+	background: #C0C0C0;
+	border-radius: 3px;
+}
+.send .form-control {
+	grid-area: a;
+}
+.send .form-control1 {
+	grid-area: b;
+	margin-left: 9%;
+}
+.intouch .examles {
+	align-items: flex-start;
+	margin-left: 5%;
+}
+
+.intouch .examles .pseudo::after {
+	text-align: left;
+	margin-left: -44%;
+}

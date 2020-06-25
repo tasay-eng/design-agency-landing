@@ -1,8 +1,11 @@
+.info-wrap{
+	margin: 0 2%;
+}
 .advantage {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-bottom: 100px;
+	margin: 0 auto 100px auto;
 }
 .article {
 	flex: 1 500px;
@@ -11,7 +14,7 @@
 	flex: 1.3 500px;
 }
 .provide {
-	margin-right: 40px;
+	margin-right: 25px;
 	padding: 0 10px 10px 10px;
 }
 .provide h2 {
@@ -36,7 +39,6 @@
 	flex-direction: row;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	margin-right: 30px;
 }
 .card {
 	padding: 5px 5px 30px 30px;

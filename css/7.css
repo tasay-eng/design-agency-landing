@@ -3,21 +3,29 @@ footer {
 	color: #fff;
 	margin-top: 5%;
 	height: 4%;
+	padding: 2% 5%;
+	width: 100%;
 }
-.footer-left,
-.footer-right {
-	padding: 20px 40px;
+.d-sm-flex{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-left, .footer-right {
+	padding: 20px 10px;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
 	color: #fff;
 }
 .footer-right {
+	width: 20%;
+	height: 5%;
 	display: flex;
 	justify-content: space-between;
+	vertical-align: middle;
 }
 .footer-left  {
-	margin-left: -60%;
+	width: 25%;
 	color: #fff;
 } 
 footer ul {
@@ -25,6 +33,7 @@ footer ul {
 	display: flex;
 	justify-content: space-between;
 	padding-left: 5%;
+	margin: 0;
 }
 footer li {
 	margin: 0 10px;
@@ -38,4 +47,91 @@ footer .footer-right a{
 }
 footer a {
 	color: #fff;
+}
+
+@media (max-width: 1004px) {
+	.organization {
+	  flex-direction: column;
+	}
+	.organization .item{
+		height: 85%;
+		padding-top: 5%;
+		margin: 0 auto;
+		width: 75%;
+		text-align: center;
+	}
+	.organization form{
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 516px) {
+	.text h1{
+		font-size: 250%;
+	}
+	.intouch .grider1 .send {
+		grid-template:
+			'a a'
+			'b b'
+			'c c'
+			'd d';
+	}
+	.send .form-control1 {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 460px) {
+	.text h1{
+		font-size: 210%;
+	}
+}
+
+@media (max-width: 420px) {
+	.text h1{
+		font-size: 180%;
+	}
+}
+
+@media (max-width: 342px) {
+	.text h1{
+		font-size: 150%;
+	}
+}
+@media (max-width: 970px){
+	.grider {
+		grid-template: 'a b'
+				       'c c';
+		grid-template-columns: 40% 100%;
+    	grid-template-rows: 60% 20%;
+	}
+	.grider .examles{
+		height: 50%;
+	}
+	.grider .more-img .image1{
+		margin-left: 0;
+	}
+}
+@media (max-width: 855px){
+	.grider {
+		grid-template: 'a a'
+					   'b b'
+				       'c c';
+		grid-template-columns: 45% 100%;
+		grid-template-rows: 57% 35%;
+		margin-bottom: 25%;
+	}
+
+}
+@media (max-width: 852px){
+	.grider {
+		grid-template-columns: 45% 100%;
+	}
+
+}
+@media (max-width: 970px){
+	.grider1{
+    	grid-template-columns: 80% 50%;
+    	grid-template-rows: 60% 20%;
+	}
 }

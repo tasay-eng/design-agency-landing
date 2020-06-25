@@ -1,29 +1,36 @@
 .signup {
 	background: #FFE4C4;
-	margin: 40px 0;
-	padding: 100px 120px;
+	margin: 3% 3%;
+	padding: 5% 0;
 	text-align: center;
+	box-sizing: border-box;
+	width: calc(100vw + 20%);
 }
+.text123{
+	margin: 0 10%;
+	box-sizing: border-box;
+}
+
 .signup .white{
 	color: white;
 	text-align: center;
 }
 .signup h2{
-	font-size: 42px;
+	font-size: 270%;
 	letter-spacing: 1px;
-	line-height: 24px;
-	padding-bottom: 45px;
+	line-height: 95%;
+	margin: 1.5% auto 3.5% auto;
 	
 }
 .signup form {
-	padding-top: 45px;
+	padding-top: 2.5%;
 }
 .btn{
 	background: #ff3f3f;
 	color: white;
 	font-weight: 700;
 	text-transform: uppercase;
-	padding: 15px 10px;
+	padding: 1% 2%;
 	width: 13%;
 }
 .signup button:hover {
@@ -33,5 +40,5 @@
 	width: 30%;
 	height: 42px;
 	vertical-align: top;
-	margin-right: 10px;
+	margin-right: 1%;
 }

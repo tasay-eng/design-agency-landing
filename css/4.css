@@ -1,22 +1,35 @@
 .meeteam {
-	width: 95%;
+	width: 90%;
+	margin: 0 3%;
+	box-sizing: border-box;
+}
+.team{
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 .meeteam .examles {
 	align-items: flex-start;
-	width: 520px;
-	margin-bottom: 40px;
+	height: 40%;
+	width: 70%;
+	margin-bottom: 3%;
 }
 .team .examles .pseudo::after {
 	margin-left: -42px;
 	text-align: left;
 }
 .grider {
-	height: 460px;
+	box-sizing: border-box;
+	width: 100%;
 	display: grid;
+	margin: 0 auto;
 	grid-template: 'a b'
 				   'a c';
-	grid-template-columns: 320px 855px;
-	grid-template-rows: 220px 180px;
+	grid-template-columns: 34% 100%;
+	grid-template-rows: 35% 20%;
+}
+.grider0{
+	height: 836px;
 }
 
 .grider .person {
@@ -27,11 +40,11 @@
 }
 .grider .more-img {
 	grid-area: c;
-	margin-top: 90px;
+	margin-top: 2.6%;
 
 }
-.grider .more-img a {
-	margin-right: 30px;
+.grider .more-img a{
+	margin-right: 3%;
 	position: relative;
 }
 .grider .more-img a:hover::before {
@@ -66,8 +79,8 @@
 }
 .examles h1 {
 	text-align: left;
-	margin-bottom: 15px;
-	
+	margin: 3% 0;
+	font-size: 200%;
 }
 .examles p {
 	text-align: left;
